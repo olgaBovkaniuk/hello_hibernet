@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <course id="1" facultyName="facultyName1" courseNumber="1"/>
+    <course id="2" facultyName="facultyName2" courseNumber="2"/>
+    <course id="3" facultyName="facultyName3" courseNumber="3"/>
+    <course id="4" facultyName="facultyName4" courseNumber="4"/>
+    <course id="5" facultyName="facultyName5" courseNumber="5"/>
+
+    <student id="1" firstName="firstName1" lastName="lastName1" gender="m" course_id="1"/>
+    <student id="2" firstName="firstName2" lastName="lastName2" gender="f" course_id="1"/>
+    <student id="3" firstName="firstName3" lastName="lastName3" gender="f" course_id="3"/>
+    <student id="4" firstName="firstName4" lastName="lastName4" gender="m" course_id="5"/>
+    <student id="5" firstName="firstName5" lastName="lastName5" gender="f" course_id="5"/>
+
+    <studentInfo id="1" city="city1" street="street1" addressLine="addressLine1" courseInfo="11" student_id="1"/>
+    <studentInfo id="2" city="city2" street="street2" addressLine="addressLine2" courseInfo="12" student_id="2"/>
+    <studentInfo id="3" city="city3" street="street3" addressLine="addressLine3" courseInfo="13" student_id="3"/>
+    <studentInfo id="4" city="city4" street="street4" addressLine="addressLine4" courseInfo="14" student_id="4"/>
+    <studentInfo id="5" city="city5" street="street5" addressLine="addressLine5" courseInfo="15" student_id="5"/>
+
+    <project id="1" projectName="projectName1" startDate="2019-08-22 16:15:11.510000000" endDate="2020-08-22 16:15:11.511000000"/>
+    <project id="2" projectName="projectName2" startDate="2019-08-23 16:15:11.510000000" endDate="2020-08-23 16:15:11.511000000"/>
+
+    <student_project students_id="1" projects_id="1"/>
+    <student_project students_id="2" projects_id="1"/>
+    <student_project students_id="1" projects_id="2"/>
+</dataset>
